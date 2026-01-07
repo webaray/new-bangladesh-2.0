@@ -1,0 +1,225 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: Fira Sans, sans-serif ;
+}
+
+.body{
+    background: #F1F1F3;
+    
+}
+
+/* Global use css */
+
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.btn-two{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    cursor: pointer;
+}
+.futur-btn-one{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    cursor: pointer;
+}
+.futur-btn-one{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    cursor: pointer;
+}
+.futur-btn-two{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #09A15C;
+    cursor: pointer;
+}
+.futur-btn-three{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #FFC239;
+    cursor: pointer;
+}
+
+.future-card-content img{
+    margin-bottom: 24px;
+}
+.future-card-content h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.future-card-content p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+/* main css */
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.top-bar h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.hero-container{
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 60px 80px;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+.hero-left p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+.hero-left h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.section-headding {
+    width: 1240px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.about-container{
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-card{
+    background-color: #F1F1F3;
+    padding: 24px;
+    border: none;
+    border-radius: 16px;
+    /* box-shadow: 4px 4px 4px 4px #00000027; */
+    margin-bottom: 80px;
+}
+
+.div-card img{
+    margin-bottom: 24px;
+}
+.div-card h3{
+    font-size: 20ox;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.div-card p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.future-container {
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+.card-container{
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+}
+.first-content h2{
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.first-content p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.future-card-one{
+    background-color: #548ff53a;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+.future-card-two{
+    background-color: #C6E4D6;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+.future-card-there{
+    background-color: #F7EBCF;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.feedback-container .feedback-card{
+    /* display: flex; */
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 24px 48px;
+    background-color: #f7f7f8;
+    margin-bottom: 80px;
+}
+.feedback-card p{
+     font-size: 16px;
+    line-height: 24px;
+    margin-top: -30px;
+    margin-bottom: 22px;
+}
+.feedback-card h4{
+    margin-bottom: 35px;
+}
